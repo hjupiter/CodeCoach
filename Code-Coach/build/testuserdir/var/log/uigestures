@@ -1,0 +1,162 @@
+<record>
+  <date>2015-09-02T11:31:24</date>
+  <millis>1441211484807</millis>
+  <sequence>84</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2015-09-02T11:31:24</date>
+  <millis>1441211484817</millis>
+  <sequence>85</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-09-02T11:31:24</date>
+  <millis>1441211484817</millis>
+  <sequence>86</sequence>
+  <level>700</level>
+  <thread>15</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2015-09-02T11:31:27</date>
+  <millis>1441211487148</millis>
+  <sequence>97</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>15</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2015-09-02T11:31:29</date>
+  <millis>1441211489329</millis>
+  <sequence>98</sequence>
+  <logger>org.netbeans.ui.ergonomics</logger>
+  <level>500</level>
+  <thread>14</thread>
+  <message>ERGO_PROJECT_OPEN</message>
+  <key>ERGO_PROJECT_OPEN</key>
+  <catalog>org.netbeans.modules.ide.ergonomics.fod.Bundle</catalog>
+  <param>apisupport</param>
+</record>
+<record>
+  <date>2015-09-02T11:31:32</date>
+  <millis>1441211492011</millis>
+  <sequence>101</sequence>
+  <level>800</level>
+  <thread>44</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>4185239552</param>
+</record>
+<record>
+  <date>2015-09-02T11:31:45</date>
+  <millis>1441211505639</millis>
+  <sequence>108</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>21</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.openide.awt.AlwaysEnabledAction[Code-Coach]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>Code-Coach</param>
+</record>
+<record>
+  <date>2015-09-02T11:31:45</date>
+  <millis>1441211505698</millis>
+  <sequence>109</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>21</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.openide.awt.AlwaysEnabledAction[Code-Coach]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>Code-Coach</param>
+</record>
+<record>
+  <date>2015-09-02T11:31:45</date>
+  <millis>1441211505699</millis>
+  <sequence>110</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>21</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.openide.awt.AlwaysEnabledAction[Code-Coach]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>Code-Coach</param>
+</record>
+<record>
+  <date>2015-09-02T11:31:45</date>
+  <millis>1441211505702</millis>
+  <sequence>111</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>21</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.openide.awt.AlwaysEnabledAction[Code-Coach]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>Code-Coach</param>
+</record>
+<record>
+  <date>2015-09-02T11:31:49</date>
+  <millis>1441211509119</millis>
+  <sequence>113</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>33</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.ide.ergonomics.fod.FeatureProjectFactory$FeatureNonProject</param>
+  <param>FeatureProjectFactory$FeatureNonProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-09-02T11:31:49</date>
+  <millis>1441211509119</millis>
+  <sequence>114</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.ide.ergonomics.fod.FeatureProjectFactory$FeatureNonProject</param>
+</record>
+<record>
+  <date>2015-09-02T11:31:49</date>
+  <millis>1441211509321</millis>
+  <sequence>115</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>43</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
