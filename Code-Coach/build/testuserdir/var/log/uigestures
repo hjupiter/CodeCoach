@@ -1,6 +1,6 @@
 <record>
-  <date>2015-11-11T22:10:58</date>
-  <millis>1447297858702</millis>
+  <date>2015-11-12T12:40:47</date>
+  <millis>1447350047956</millis>
   <sequence>38</sequence>
   <level>300</level>
   <thread>15</thread>
@@ -8,8 +8,8 @@
   <param>4</param>
 </record>
 <record>
-  <date>2015-11-11T22:10:58</date>
-  <millis>1447297858718</millis>
+  <date>2015-11-12T12:40:47</date>
+  <millis>1447350047965</millis>
   <sequence>39</sequence>
   <level>300</level>
   <thread>15</thread>
@@ -19,16 +19,16 @@
   <param>1</param>
 </record>
 <record>
-  <date>2015-11-11T22:10:58</date>
-  <millis>1447297858718</millis>
+  <date>2015-11-12T12:40:47</date>
+  <millis>1447350047966</millis>
   <sequence>40</sequence>
   <level>700</level>
   <thread>15</thread>
   <message>IDE_STARTUP</message>
 </record>
 <record>
-  <date>2015-11-11T22:11:01</date>
-  <millis>1447297861069</millis>
+  <date>2015-11-12T12:40:52</date>
+  <millis>1447350052634</millis>
   <sequence>52</sequence>
   <logger>org.netbeans.ui.metrics.laf</logger>
   <level>800</level>
@@ -38,350 +38,20 @@
   <param>Windows</param>
 </record>
 <record>
-  <date>2015-11-11T22:11:06</date>
-  <millis>1447297866008</millis>
+  <date>2015-11-12T12:40:58</date>
+  <millis>1447350058720</millis>
   <sequence>55</sequence>
   <level>800</level>
-  <thread>29</thread>
+  <thread>22</thread>
   <message>MEMORY</message>
   <key>MEMORY</key>
   <catalog>&lt;null&gt;</catalog>
   <param>8476975104</param>
 </record>
 <record>
-  <date>2015-11-11T22:11:18</date>
-  <millis>1447297878990</millis>
+  <date>2015-11-12T12:41:09</date>
+  <millis>1447350069797</millis>
   <sequence>56</sequence>
-  <logger>global</logger>
-  <level>1000</level>
-  <thread>21</thread>
-  <exception>
-    <message>java.lang.NullPointerException</message>
-    <frame>
-      <class>org.myorg.codeCoach.DownArrowPanel</class>
-      <method>runButtonActionPerformed</method>
-      <line>130</line>
-      <file>${netBeansDir}modules/org-myorg-codeCoach.jar</file>
-    </frame>
-    <frame>
-      <class>org.myorg.codeCoach.DownArrowPanel</class>
-      <method>access$100</method>
-      <line>33</line>
-      <file>${netBeansDir}modules/org-myorg-codeCoach.jar</file>
-    </frame>
-    <frame>
-      <class>org.myorg.codeCoach.DownArrowPanel$2</class>
-      <method>actionPerformed</method>
-      <line>99</line>
-      <file>${netBeansDir}modules/org-myorg-codeCoach.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Button</class>
-      <method>processActionEvent</method>
-      <line>409</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Button</class>
-      <method>processEvent</method>
-      <line>377</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEventImpl</method>
-      <line>4881</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4703</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEventImpl</method>
-      <line>758</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>access$500</method>
-      <line>97</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>709</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>703</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$1</class>
-      <method>doIntersectionPrivilege</method>
-      <line>75</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$1</class>
-      <method>doIntersectionPrivilege</method>
-      <line>86</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>731</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>729</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$1</class>
-      <method>doIntersectionPrivilege</method>
-      <line>75</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEvent</method>
-      <line>728</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.core.TimableEventQueue</class>
-      <method>dispatchEvent</method>
-      <line>159</line>
-      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpOneEventForFilters</method>
-      <line>201</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForFilter</method>
-      <line>116</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForHierarchy</method>
-      <line>105</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>101</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>93</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>run</method>
-      <line>82</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-  </exception>
-</record>
-<record>
-  <date>2015-11-11T22:11:28</date>
-  <millis>1447297888092</millis>
-  <sequence>66</sequence>
-  <logger>global</logger>
-  <level>1000</level>
-  <thread>21</thread>
-  <exception>
-    <message>java.lang.NullPointerException</message>
-    <frame>
-      <class>org.myorg.codeCoach.DownArrowPanel</class>
-      <method>runButtonActionPerformed</method>
-      <line>130</line>
-      <file>${netBeansDir}modules/org-myorg-codeCoach.jar</file>
-    </frame>
-    <frame>
-      <class>org.myorg.codeCoach.DownArrowPanel</class>
-      <method>access$100</method>
-      <line>33</line>
-      <file>${netBeansDir}modules/org-myorg-codeCoach.jar</file>
-    </frame>
-    <frame>
-      <class>org.myorg.codeCoach.DownArrowPanel$2</class>
-      <method>actionPerformed</method>
-      <line>99</line>
-      <file>${netBeansDir}modules/org-myorg-codeCoach.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Button</class>
-      <method>processActionEvent</method>
-      <line>409</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Button</class>
-      <method>processEvent</method>
-      <line>377</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEventImpl</method>
-      <line>4881</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.Component</class>
-      <method>dispatchEvent</method>
-      <line>4703</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEventImpl</method>
-      <line>758</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>access$500</method>
-      <line>97</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>709</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$3</class>
-      <method>run</method>
-      <line>703</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$1</class>
-      <method>doIntersectionPrivilege</method>
-      <line>75</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$1</class>
-      <method>doIntersectionPrivilege</method>
-      <line>86</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>731</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue$4</class>
-      <method>run</method>
-      <line>729</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.AccessController</class>
-      <method>doPrivileged</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.security.ProtectionDomain$1</class>
-      <method>doIntersectionPrivilege</method>
-      <line>75</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventQueue</class>
-      <method>dispatchEvent</method>
-      <line>728</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.core.TimableEventQueue</class>
-      <method>dispatchEvent</method>
-      <line>159</line>
-      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpOneEventForFilters</method>
-      <line>201</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForFilter</method>
-      <line>116</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEventsForHierarchy</method>
-      <line>105</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>101</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>pumpEvents</method>
-      <line>93</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.awt.EventDispatchThread</class>
-      <method>run</method>
-      <line>82</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-  </exception>
-</record>
-<record>
-  <date>2015-11-11T22:11:39</date>
-  <millis>1447297899632</millis>
-  <sequence>67</sequence>
   <logger>org.netbeans.ui.actions</logger>
   <level>400</level>
   <thread>21</thread>
@@ -395,12 +65,12 @@
   <param>Open Proj&amp;ect...</param>
 </record>
 <record>
-  <date>2015-11-11T22:11:54</date>
-  <millis>1447297914400</millis>
-  <sequence>69</sequence>
+  <date>2015-11-12T12:41:25</date>
+  <millis>1447350085492</millis>
+  <sequence>59</sequence>
   <logger>org.netbeans.ui.projects</logger>
   <level>700</level>
-  <thread>30</thread>
+  <thread>32</thread>
   <message>UI_OPEN_PROJECTS</message>
   <key>UI_OPEN_PROJECTS</key>
   <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
@@ -409,291 +79,58 @@
   <param>1</param>
 </record>
 <record>
-  <date>2015-11-11T22:11:54</date>
-  <millis>1447297914400</millis>
-  <sequence>70</sequence>
+  <date>2015-11-12T12:41:25</date>
+  <millis>1447350085492</millis>
+  <sequence>60</sequence>
   <logger>org.netbeans.ui.metrics.projects</logger>
   <level>800</level>
-  <thread>30</thread>
+  <thread>32</thread>
   <message>USG_PROJECT_OPEN</message>
   <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
 </record>
 <record>
-  <date>2015-11-11T22:11:54</date>
-  <millis>1447297914603</millis>
-  <sequence>72</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>80</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-11-11T22:11:55</date>
-  <millis>1447297915681</millis>
-  <sequence>78</sequence>
+  <date>2015-11-12T12:41:25</date>
+  <millis>1447350085520</millis>
+  <sequence>61</sequence>
   <logger>org.netbeans.ui.metrics.vcs</logger>
   <level>800</level>
-  <thread>55</thread>
+  <thread>51</thread>
   <message>USG_VCS_CLIENT</message>
   <param>GIT</param>
   <param>JAVALIB</param>
 </record>
 <record>
-  <date>2015-11-11T22:11:57</date>
-  <millis>1447297917843</millis>
-  <sequence>143</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
+  <date>2015-11-12T12:41:26</date>
+  <millis>1447350086143</millis>
+  <sequence>63</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>49</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>365</param>
+  <thread>31</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:11:58</date>
-  <millis>1447297918066</millis>
+  <date>2015-11-12T12:41:36</date>
+  <millis>1447350096559</millis>
   <sequence>144</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>49</thread>
+  <thread>28</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>192</param>
+  <param>1645</param>
   <param>0</param>
   <param>remove</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:12:16</date>
-  <millis>1447297936298</millis>
-  <sequence>177</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>83</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>139</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:16</date>
-  <millis>1447297936533</millis>
-  <sequence>178</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>83</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>219</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:22</date>
-  <millis>1447297942648</millis>
-  <sequence>216</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>80</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>28030</param>
-  <param>java</param>
-  <param>61</param>
-  <param>20206</param>
-  <param>SpringBinary</param>
-  <param>60</param>
-  <param>2124</param>
-  <param>TaskListIndexer</param>
-  <param>1</param>
-  <param>0</param>
-  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
-  <param>1</param>
-  <param>0</param>
-  <param>CopyResourcesIndexer</param>
-  <param>1</param>
-  <param>0</param>
-  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
-  <param>1</param>
-  <param>15</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:27</date>
-  <millis>1447297947586</millis>
-  <sequence>217</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>80</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>156</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:27</date>
-  <millis>1447297947742</millis>
-  <sequence>218</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>80</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>140</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:29</date>
-  <millis>1447297949516</millis>
-  <sequence>219</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>30</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>180</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:29</date>
-  <millis>1447297949760</millis>
-  <sequence>220</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>30</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>208</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:39</date>
-  <millis>1447297959624</millis>
-  <sequence>221</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>80</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>156</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:39</date>
-  <millis>1447297959796</millis>
-  <sequence>222</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>80</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>156</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:53</date>
-  <millis>1447297973829</millis>
-  <sequence>223</sequence>
-  <logger>org.netbeans.ui.metrics.editor</logger>
-  <level>800</level>
-  <thread>29</thread>
-  <message>USG_EDITOR_MIME_TYPE</message>
-  <param>text/x-java</param>
-  <param>2</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:53</date>
-  <millis>1447297973915</millis>
-  <sequence>224</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>49</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>31267</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:54</date>
-  <millis>1447297974009</millis>
-  <sequence>225</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>49</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:54</date>
-  <millis>1447297974056</millis>
-  <sequence>226</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>49</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>47</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:54</date>
-  <millis>1447297974102</millis>
-  <sequence>227</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>49</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-11-11T22:12:54</date>
-  <millis>1447297974149</millis>
-  <sequence>231</sequence>
+  <date>2015-11-12T12:41:48</date>
+  <millis>1447350108765</millis>
+  <sequence>160</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
   <thread>21</thread>
@@ -702,175 +139,366 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2015-11-11T22:20:46</date>
-  <millis>1447298446101</millis>
-  <sequence>38</sequence>
-  <level>300</level>
-  <thread>15</thread>
-  <message>CPU INFO</message>
-  <param>4</param>
-</record>
-<record>
-  <date>2015-11-11T22:20:46</date>
-  <millis>1447298446101</millis>
-  <sequence>39</sequence>
-  <level>300</level>
-  <thread>15</thread>
-  <message>SCREEN SIZE</message>
-  <param>1366</param>
-  <param>768</param>
-  <param>1</param>
-</record>
-<record>
-  <date>2015-11-11T22:20:46</date>
-  <millis>1447298446101</millis>
-  <sequence>40</sequence>
-  <level>700</level>
-  <thread>15</thread>
-  <message>IDE_STARTUP</message>
-</record>
-<record>
-  <date>2015-11-11T22:20:48</date>
-  <millis>1447298448153</millis>
-  <sequence>52</sequence>
-  <logger>org.netbeans.ui.metrics.laf</logger>
-  <level>800</level>
-  <thread>15</thread>
-  <message>USG_LOOK_AND_FEEL</message>
-  <param>Windows</param>
-  <param>Windows</param>
-</record>
-<record>
-  <date>2015-11-11T22:20:51</date>
-  <millis>1447298451845</millis>
-  <sequence>55</sequence>
-  <logger>org.netbeans.ui.projects</logger>
-  <level>700</level>
-  <thread>14</thread>
-  <message>UI_INIT_PROJECTS</message>
-  <key>UI_INIT_PROJECTS</key>
-  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-  <param>J2SEProject</param>
-  <param>1</param>
-</record>
-<record>
-  <date>2015-11-11T22:20:51</date>
-  <millis>1447298451845</millis>
-  <sequence>56</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>800</level>
-  <thread>14</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-11-11T22:20:52</date>
-  <millis>1447298452001</millis>
-  <sequence>57</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>14</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-11-11T22:20:52</date>
-  <millis>1447298452282</millis>
-  <sequence>58</sequence>
-  <logger>org.netbeans.ui.metrics.vcs</logger>
-  <level>800</level>
-  <thread>47</thread>
-  <message>USG_VCS_CLIENT</message>
-  <param>GIT</param>
-  <param>JAVALIB</param>
-</record>
-<record>
-  <date>2015-11-11T22:20:54</date>
-  <millis>1447298454405</millis>
-  <sequence>61</sequence>
+  <date>2015-11-12T12:41:54</date>
+  <millis>1447350114040</millis>
+  <sequence>165</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
   <thread>51</thread>
-  <message>MEMORY</message>
-  <key>MEMORY</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>8476975104</param>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>1522</param>
+  <param>0</param>
+  <param>UNKNOWN</param>
+  <param>EXTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:20:56</date>
-  <millis>1447298456310</millis>
-  <sequence>67</sequence>
+  <date>2015-11-12T12:41:57</date>
+  <millis>1447350117609</millis>
+  <sequence>176</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>51</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>860</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T12:42:08</date>
+  <millis>1447350128422</millis>
+  <sequence>206</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>14</thread>
+  <thread>31</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>4309</param>
+  <param>42276</param>
   <param>java</param>
   <param>61</param>
-  <param>1547</param>
+  <param>39367</param>
   <param>SpringBinary</param>
   <param>60</param>
-  <param>77</param>
+  <param>3127</param>
   <param>TaskListIndexer</param>
   <param>1</param>
   <param>0</param>
   <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
   <param>1</param>
-  <param>15</param>
+  <param>63</param>
   <param>CopyResourcesIndexer</param>
   <param>1</param>
   <param>0</param>
   <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
   <param>1</param>
-  <param>0</param>
+  <param>16</param>
 </record>
 <record>
-  <date>2015-11-11T22:21:02</date>
-  <millis>1447298462337</millis>
-  <sequence>68</sequence>
+  <date>2015-11-12T12:42:12</date>
+  <millis>1447350132375</millis>
+  <sequence>207</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>31</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>453</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T12:42:14</date>
+  <millis>1447350134147</millis>
+  <sequence>208</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>28</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>406</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T12:42:14</date>
+  <millis>1447350134881</millis>
+  <sequence>209</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>52</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>1912</param>
+</record>
+<record>
+  <date>2015-11-12T12:42:26</date>
+  <millis>1447350146335</millis>
+  <sequence>211</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>28</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>2125</param>
+  <param>0</param>
+  <param>UNKNOWN</param>
+  <param>EXTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T12:42:29</date>
+  <millis>1447350149357</millis>
+  <sequence>212</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>51</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>489</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T12:42:32</date>
+  <millis>1447350152380</millis>
+  <sequence>213</sequence>
   <logger>global</logger>
   <level>1000</level>
-  <thread>35</thread>
+  <thread>21</thread>
   <exception>
     <message>java.lang.NullPointerException</message>
     <frame>
+      <class>org.myorg.codeCoach.DownArrowPanel$3</class>
+      <method>run</method>
+      <line>153</line>
+      <file>${netBeansDir}modules/org-myorg-codeCoach.jar</file>
+    </frame>
+    <frame>
+      <class>org.myorg.codeCoach.DownArrowPanel$3</class>
+      <method>run</method>
+      <line>141</line>
+      <file>${netBeansDir}modules/org-myorg-codeCoach.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.java.source.JavaSource$MultiTask</class>
+      <method>run</method>
+      <line>493</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-java-source.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.parsing.impl.TaskProcessor</class>
+      <method>callUserTask</method>
+      <line>598</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-parsing-api.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.parsing.api.ParserManager$UserTaskAction</class>
+      <method>run</method>
+      <line>155</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-parsing-api.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.parsing.api.ParserManager$UserTaskAction</class>
+      <method>run</method>
+      <line>139</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-parsing-api.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.parsing.impl.TaskProcessor$2</class>
+      <method>call</method>
+      <line>206</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-parsing-api.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.parsing.impl.TaskProcessor$2</class>
+      <method>call</method>
+      <line>203</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-parsing-api.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.masterfs.filebasedfs.utils.FileChangedManager</class>
+      <method>priorityIO</method>
+      <line>176</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-masterfs.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.masterfs.providers.ProvidedExtensions</class>
+      <method>priorityIO</method>
+      <line>360</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-masterfs.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.parsing.impl.Utilities</class>
+      <method>runPriorityIO</method>
+      <line>74</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-parsing-api.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.parsing.impl.TaskProcessor</class>
+      <method>runUserTask</method>
+      <line>203</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-parsing-api.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.parsing.api.ParserManager</class>
+      <method>parse</method>
+      <line>106</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-parsing-api.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.java.source.JavaSource</class>
+      <method>runUserActionTaskImpl</method>
+      <line>443</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-java-source.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.java.source.JavaSource</class>
+      <method>runUserActionTask</method>
+      <line>414</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-java-source.jar</file>
+    </frame>
+    <frame>
       <class>org.myorg.codeCoach.DownArrowPanel</class>
-      <method>runButtonActionPerformed</method>
-      <line>128</line>
+      <method>jTB_activityActionPerformed</method>
+      <line>141</line>
       <file>${netBeansDir}modules/org-myorg-codeCoach.jar</file>
     </frame>
     <frame>
       <class>org.myorg.codeCoach.DownArrowPanel</class>
       <method>access$100</method>
-      <line>33</line>
+      <line>29</line>
       <file>${netBeansDir}modules/org-myorg-codeCoach.jar</file>
     </frame>
     <frame>
       <class>org.myorg.codeCoach.DownArrowPanel$2</class>
       <method>actionPerformed</method>
-      <line>97</line>
+      <line>102</line>
       <file>${netBeansDir}modules/org-myorg-codeCoach.jar</file>
     </frame>
     <frame>
-      <class>java.awt.Button</class>
-      <method>processActionEvent</method>
-      <line>409</line>
+      <class>javax.swing.AbstractButton</class>
+      <method>fireActionPerformed</method>
+      <line>2022</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
-      <class>java.awt.Button</class>
+      <class>javax.swing.AbstractButton$Handler</class>
+      <method>actionPerformed</method>
+      <line>2346</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>fireActionPerformed</method>
+      <line>402</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>javax.swing.JToggleButton$ToggleButtonModel</class>
+      <method>setPressed</method>
+      <line>308</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>javax.swing.plaf.basic.BasicButtonListener</class>
+      <method>mouseReleased</method>
+      <line>252</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.AWTEventMulticaster</class>
+      <method>mouseReleased</method>
+      <line>289</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processMouseEvent</method>
+      <line>6525</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>javax.swing.JComponent</class>
+      <method>processMouseEvent</method>
+      <line>3324</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
       <method>processEvent</method>
-      <line>377</line>
+      <line>6290</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>processEvent</method>
+      <line>2234</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.Component</class>
       <method>dispatchEventImpl</method>
       <line>4881</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2292</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4703</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>retargetMouseEvent</method>
+      <line>4898</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>processMouseEvent</method>
+      <line>4533</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>dispatchEvent</method>
+      <line>4462</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2278</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>dispatchEventImpl</method>
+      <line>2750</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
@@ -994,137 +622,596 @@
   </exception>
 </record>
 <record>
-  <date>2015-11-11T22:21:31</date>
-  <millis>1447298491897</millis>
-  <sequence>71</sequence>
+  <date>2015-11-12T12:42:45</date>
+  <millis>1447350165679</millis>
+  <sequence>214</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>800</level>
+  <thread>51</thread>
+  <message>USG_EDITOR_MIME_TYPE</message>
+  <param>text/x-java</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T12:42:45</date>
+  <millis>1447350165851</millis>
+  <sequence>215</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>37429</param>
+</record>
+<record>
+  <date>2015-11-12T12:42:45</date>
+  <millis>1447350165882</millis>
+  <sequence>216</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T12:42:45</date>
+  <millis>1447350165898</millis>
+  <sequence>217</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>16</param>
+</record>
+<record>
+  <date>2015-11-12T12:42:45</date>
+  <millis>1447350165913</millis>
+  <sequence>218</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T12:42:45</date>
+  <millis>1447350165991</millis>
+  <sequence>222</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>21</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2015-11-12T13:13:22</date>
+  <millis>1447352002378</millis>
+  <sequence>38</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2015-11-12T13:13:22</date>
+  <millis>1447352002378</millis>
+  <sequence>39</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:13:22</date>
+  <millis>1447352002378</millis>
+  <sequence>40</sequence>
+  <level>700</level>
+  <thread>15</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2015-11-12T13:13:26</date>
+  <millis>1447352006643</millis>
+  <sequence>52</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>15</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2015-11-12T13:13:34</date>
+  <millis>1447352014936</millis>
+  <sequence>56</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>800</level>
+  <thread>53</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2015-11-12T13:13:36</date>
+  <millis>1447352016173</millis>
+  <sequence>57</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>35</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>J2SEProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:13:36</date>
+  <millis>1447352016173</millis>
+  <sequence>58</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>35</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2015-11-12T13:13:36</date>
+  <millis>1447352016361</millis>
+  <sequence>59</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>34</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T13:13:38</date>
+  <millis>1447352018380</millis>
+  <sequence>62</sequence>
+  <level>800</level>
+  <thread>57</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8476975104</param>
+</record>
+<record>
+  <date>2015-11-12T13:13:43</date>
+  <millis>1447352023906</millis>
+  <sequence>68</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>34</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>7545</param>
+  <param>java</param>
+  <param>61</param>
+  <param>2893</param>
+  <param>SpringBinary</param>
+  <param>60</param>
+  <param>124</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>4</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>56</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>2</param>
+</record>
+<record>
+  <date>2015-11-12T13:13:55</date>
+  <millis>1447352035019</millis>
+  <sequence>69</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>14</thread>
+  <thread>57</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>813</param>
+  <param>1749</param>
   <param>0</param>
   <param>remove</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:21:33</date>
-  <millis>1447298493945</millis>
+  <date>2015-11-12T13:14:17</date>
+  <millis>1447352057295</millis>
   <sequence>72</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>47</thread>
+  <thread>52</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>515</param>
+  <param>532</param>
   <param>0</param>
   <param>remove</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:21:45</date>
-  <millis>1447298505845</millis>
+  <date>2015-11-12T13:14:32</date>
+  <millis>1447352072716</millis>
   <sequence>73</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>34</thread>
+  <thread>36</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>219</param>
+  <param>406</param>
   <param>0</param>
   <param>remove</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:21:46</date>
-  <millis>1447298506017</millis>
+  <date>2015-11-12T13:14:47</date>
+  <millis>1447352087108</millis>
   <sequence>74</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>34</thread>
+  <thread>52</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>141</param>
+  <param>344</param>
   <param>0</param>
   <param>remove</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:21:58</date>
-  <millis>1447298518151</millis>
+  <date>2015-11-12T13:15:01</date>
+  <millis>1447352101044</millis>
   <sequence>75</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>51</thread>
+  <thread>52</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>172</param>
+  <param>313</param>
   <param>0</param>
   <param>remove</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:21:58</date>
-  <millis>1447298518292</millis>
+  <date>2015-11-12T13:15:15</date>
+  <millis>1447352115067</millis>
   <sequence>76</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>51</thread>
+  <thread>57</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>141</param>
+  <param>367</param>
   <param>0</param>
   <param>remove</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:22:10</date>
-  <millis>1447298530415</millis>
+  <date>2015-11-12T13:15:21</date>
+  <millis>1447352121608</millis>
   <sequence>77</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
+  <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>47</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>140</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
+  <thread>51</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>97702</param>
 </record>
 <record>
-  <date>2015-11-11T22:22:10</date>
-  <millis>1447298530587</millis>
+  <date>2015-11-12T13:15:21</date>
+  <millis>1447352121674</millis>
   <sequence>78</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
+  <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>47</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>140</param>
+  <thread>51</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:22:16</date>
-  <millis>1447298536840</millis>
+  <date>2015-11-12T13:15:21</date>
+  <millis>1447352121689</millis>
   <sequence>79</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>51</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>15</param>
+</record>
+<record>
+  <date>2015-11-12T13:15:21</date>
+  <millis>1447352121705</millis>
+  <sequence>80</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>51</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T13:15:21</date>
+  <millis>1447352121752</millis>
+  <sequence>84</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>37</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2015-11-12T13:35:07</date>
+  <millis>1447353307544</millis>
+  <sequence>38</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2015-11-12T13:35:07</date>
+  <millis>1447353307552</millis>
+  <sequence>39</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:35:07</date>
+  <millis>1447353307553</millis>
+  <sequence>40</sequence>
+  <level>700</level>
+  <thread>15</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2015-11-12T13:35:12</date>
+  <millis>1447353312594</millis>
+  <sequence>52</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>15</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2015-11-12T13:35:20</date>
+  <millis>1447353320399</millis>
+  <sequence>57</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>800</level>
+  <thread>58</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2015-11-12T13:35:20</date>
+  <millis>1447353320667</millis>
+  <sequence>58</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>22</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>J2SEProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:35:20</date>
+  <millis>1447353320676</millis>
+  <sequence>59</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>22</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2015-11-12T13:35:21</date>
+  <millis>1447353321253</millis>
+  <sequence>60</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>60</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T13:35:24</date>
+  <millis>1447353324649</millis>
+  <sequence>63</sequence>
+  <level>800</level>
+  <thread>56</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8476975104</param>
+</record>
+<record>
+  <date>2015-11-12T13:35:28</date>
+  <millis>1447353328648</millis>
+  <sequence>65</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>46</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2015-11-12T13:35:30</date>
+  <millis>1447353330684</millis>
+  <sequence>70</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>60</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>9419</param>
+  <param>java</param>
+  <param>61</param>
+  <param>4145</param>
+  <param>SpringBinary</param>
+  <param>60</param>
+  <param>87</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>2</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>35</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:41:03</date>
+  <millis>1447353663302</millis>
+  <sequence>38</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2015-11-12T13:41:03</date>
+  <millis>1447353663310</millis>
+  <sequence>39</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:41:03</date>
+  <millis>1447353663311</millis>
+  <sequence>40</sequence>
+  <level>700</level>
+  <thread>15</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2015-11-12T13:41:07</date>
+  <millis>1447353667228</millis>
+  <sequence>52</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>15</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2015-11-12T13:41:13</date>
+  <millis>1447353673977</millis>
+  <sequence>58</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>800</level>
+  <thread>49</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2015-11-12T13:41:14</date>
+  <millis>1447353674589</millis>
+  <sequence>59</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>31</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>J2SEProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:41:14</date>
+  <millis>1447353674590</millis>
+  <sequence>60</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>31</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2015-11-12T13:41:14</date>
+  <millis>1447353674977</millis>
+  <sequence>61</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>54</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T13:41:17</date>
+  <millis>1447353677833</millis>
+  <sequence>64</sequence>
+  <level>800</level>
+  <thread>32</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8476975104</param>
+</record>
+<record>
+  <date>2015-11-12T13:41:18</date>
+  <millis>1447353678793</millis>
+  <sequence>65</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
   <thread>35</thread>
@@ -1133,44 +1220,1229 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2015-11-11T22:22:22</date>
-  <millis>1447298542652</millis>
+  <date>2015-11-12T13:41:27</date>
+  <millis>1447353687339</millis>
+  <sequence>71</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>54</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>12325</param>
+  <param>java</param>
+  <param>61</param>
+  <param>3952</param>
+  <param>SpringBinary</param>
+  <param>60</param>
+  <param>26</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>2</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>48</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:41:40</date>
+  <millis>1447353700084</millis>
+  <sequence>72</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>1472</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:41:42</date>
+  <millis>1447353702244</millis>
+  <sequence>73</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>54</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>2928</param>
+</record>
+<record>
+  <date>2015-11-12T13:42:02</date>
+  <millis>1447353722695</millis>
+  <sequence>76</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>34</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>380</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:42:19</date>
+  <millis>1447353739329</millis>
+  <sequence>77</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>51990</param>
+</record>
+<record>
+  <date>2015-11-12T13:42:19</date>
+  <millis>1447353739391</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T13:42:19</date>
+  <millis>1447353739421</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>30</param>
+</record>
+<record>
+  <date>2015-11-12T13:42:19</date>
+  <millis>1447353739455</millis>
+  <sequence>80</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>3</param>
+</record>
+<record>
+  <date>2015-11-12T13:42:19</date>
+  <millis>1447353739535</millis>
+  <sequence>84</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>35</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2015-11-12T13:44:32</date>
+  <millis>1447353872341</millis>
+  <sequence>38</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2015-11-12T13:44:32</date>
+  <millis>1447353872348</millis>
+  <sequence>39</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:44:32</date>
+  <millis>1447353872349</millis>
+  <sequence>40</sequence>
+  <level>700</level>
+  <thread>15</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2015-11-12T13:44:37</date>
+  <millis>1447353877592</millis>
+  <sequence>52</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>15</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2015-11-12T13:44:46</date>
+  <millis>1447353886208</millis>
+  <sequence>56</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>14</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>J2SEProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:44:46</date>
+  <millis>1447353886212</millis>
+  <sequence>57</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>14</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2015-11-12T13:44:46</date>
+  <millis>1447353886693</millis>
+  <sequence>58</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T13:44:46</date>
+  <millis>1447353886887</millis>
+  <sequence>59</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>800</level>
+  <thread>57</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2015-11-12T13:44:50</date>
+  <millis>1447353890993</millis>
+  <sequence>62</sequence>
+  <level>800</level>
+  <thread>58</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8476975104</param>
+</record>
+<record>
+  <date>2015-11-12T13:44:57</date>
+  <millis>1447353897460</millis>
+  <sequence>63</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>61</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>1966</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:45:05</date>
+  <millis>1447353905592</millis>
+  <sequence>65</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>46</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2015-11-12T13:45:09</date>
+  <millis>1447353909945</millis>
+  <sequence>70</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>23247</param>
+  <param>java</param>
+  <param>61</param>
+  <param>2846</param>
+  <param>SpringBinary</param>
+  <param>60</param>
+  <param>145</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>2</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>77</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>2</param>
+</record>
+<record>
+  <date>2015-11-12T13:45:20</date>
+  <millis>1447353920813</millis>
+  <sequence>72</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>61</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>380</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:45:34</date>
+  <millis>1447353934871</millis>
+  <sequence>73</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>56</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>350</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:45:49</date>
+  <millis>1447353949397</millis>
+  <sequence>74</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>58</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>365</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:46:03</date>
+  <millis>1447353963208</millis>
+  <sequence>75</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>56</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>319</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:46:09</date>
+  <millis>1447353969541</millis>
+  <sequence>76</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>61</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>143</param>
+</record>
+<record>
+  <date>2015-11-12T13:46:18</date>
+  <millis>1447353978229</millis>
+  <sequence>77</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>61</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>363</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:46:32</date>
+  <millis>1447353992757</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>56</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>602</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:46:47</date>
+  <millis>1447354007892</millis>
   <sequence>80</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>30</thread>
+  <thread>56</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>120</param>
+  <param>311</param>
   <param>0</param>
   <param>remove</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:22:22</date>
-  <millis>1447298542858</millis>
+  <date>2015-11-12T13:46:57</date>
+  <millis>1447354017983</millis>
   <sequence>81</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>30</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>190</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>46</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2015-11-11T22:22:34</date>
-  <millis>1447298554920</millis>
+  <date>2015-11-12T13:47:01</date>
+  <millis>1447354021965</millis>
   <sequence>82</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>51</thread>
+  <thread>56</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>346</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:47:04</date>
+  <millis>1447354024244</millis>
+  <sequence>83</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>56</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>791</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:47:06</date>
+  <millis>1447354026458</millis>
+  <sequence>84</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>55</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>1809</param>
+</record>
+<record>
+  <date>2015-11-12T13:47:16</date>
+  <millis>1447354036506</millis>
+  <sequence>85</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>329</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:47:16</date>
+  <millis>1447354036861</millis>
+  <sequence>86</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>334</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:47:30</date>
+  <millis>1447354050536</millis>
+  <sequence>87</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>104</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>326</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:47:30</date>
+  <millis>1447354050922</millis>
+  <sequence>88</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>104</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>340</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:47:38</date>
+  <millis>1447354058969</millis>
+  <sequence>89</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>99</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>149024</param>
+</record>
+<record>
+  <date>2015-11-12T13:47:38</date>
+  <millis>1447354058998</millis>
+  <sequence>90</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>99</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T13:47:39</date>
+  <millis>1447354059026</millis>
+  <sequence>91</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>99</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>28</param>
+</record>
+<record>
+  <date>2015-11-12T13:47:39</date>
+  <millis>1447354059056</millis>
+  <sequence>92</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>99</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>3</param>
+</record>
+<record>
+  <date>2015-11-12T13:47:39</date>
+  <millis>1447354059111</millis>
+  <sequence>94</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>46</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2015-11-12T13:49:01</date>
+  <millis>1447354141163</millis>
+  <sequence>38</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2015-11-12T13:49:01</date>
+  <millis>1447354141170</millis>
+  <sequence>39</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:49:01</date>
+  <millis>1447354141171</millis>
+  <sequence>40</sequence>
+  <level>700</level>
+  <thread>15</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2015-11-12T13:49:05</date>
+  <millis>1447354145427</millis>
+  <sequence>52</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>15</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2015-11-12T13:49:12</date>
+  <millis>1447354152269</millis>
+  <sequence>56</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>800</level>
+  <thread>54</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2015-11-12T13:49:12</date>
+  <millis>1447354152946</millis>
+  <sequence>57</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>33</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>J2SEProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:49:12</date>
+  <millis>1447354152947</millis>
+  <sequence>58</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2015-11-12T13:49:13</date>
+  <millis>1447354153356</millis>
+  <sequence>59</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>59</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T13:49:16</date>
+  <millis>1447354156421</millis>
+  <sequence>62</sequence>
+  <level>800</level>
+  <thread>52</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8476975104</param>
+</record>
+<record>
+  <date>2015-11-12T13:49:22</date>
+  <millis>1447354162394</millis>
+  <sequence>68</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>59</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>9033</param>
+  <param>java</param>
+  <param>61</param>
+  <param>3621</param>
+  <param>SpringBinary</param>
+  <param>60</param>
+  <param>534</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>2</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>90</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>4</param>
+</record>
+<record>
+  <date>2015-11-12T13:49:32</date>
+  <millis>1447354172081</millis>
+  <sequence>69</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>2329</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:49:55</date>
+  <millis>1447354195892</millis>
+  <sequence>72</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>525</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:50:09</date>
+  <millis>1447354209977</millis>
+  <sequence>73</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>388</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:50:23</date>
+  <millis>1447354223967</millis>
+  <sequence>74</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>22</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>327</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:50:37</date>
+  <millis>1447354237854</millis>
+  <sequence>75</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>22</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>336</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:50:44</date>
+  <millis>1447354244496</millis>
+  <sequence>76</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>43</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2015-11-12T13:50:51</date>
+  <millis>1447354251768</millis>
+  <sequence>77</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>22</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>318</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:51:05</date>
+  <millis>1447354265749</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>59</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>320</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:51:20</date>
+  <millis>1447354280164</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>499</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:51:34</date>
+  <millis>1447354294052</millis>
+  <sequence>80</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>59</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>332</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:51:48</date>
+  <millis>1447354308044</millis>
+  <sequence>81</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>59</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>317</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:52:01</date>
+  <millis>1447354321999</millis>
+  <sequence>82</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>58</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>309</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:52:16</date>
+  <millis>1447354336050</millis>
+  <sequence>83</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>59</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>405</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:52:56</date>
+  <millis>1447354376207</millis>
+  <sequence>38</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2015-11-12T13:52:56</date>
+  <millis>1447354376215</millis>
+  <sequence>39</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:52:56</date>
+  <millis>1447354376216</millis>
+  <sequence>40</sequence>
+  <level>700</level>
+  <thread>15</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2015-11-12T13:53:01</date>
+  <millis>1447354381849</millis>
+  <sequence>53</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>15</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2015-11-12T13:53:09</date>
+  <millis>1447354389880</millis>
+  <sequence>56</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>800</level>
+  <thread>53</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2015-11-12T13:53:10</date>
+  <millis>1447354390806</millis>
+  <sequence>57</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>32</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>J2SEProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T13:53:10</date>
+  <millis>1447354390807</millis>
+  <sequence>58</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2015-11-12T13:53:11</date>
+  <millis>1447354391224</millis>
+  <sequence>59</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>30</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T13:53:13</date>
+  <millis>1447354393876</millis>
+  <sequence>62</sequence>
+  <level>800</level>
+  <thread>55</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8476975104</param>
+</record>
+<record>
+  <date>2015-11-12T13:53:22</date>
+  <millis>1447354402705</millis>
+  <sequence>68</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>30</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>11457</param>
+  <param>java</param>
+  <param>61</param>
+  <param>3426</param>
+  <param>SpringBinary</param>
+  <param>60</param>
+  <param>17</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>3</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>60</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>2</param>
+</record>
+<record>
+  <date>2015-11-12T13:53:52</date>
+  <millis>1447354432555</millis>
+  <sequence>72</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>49</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>2447</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T13:54:01</date>
+  <millis>1447354441485</millis>
+  <sequence>74</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>43</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2015-11-12T14:09:46</date>
+  <millis>1447355386982</millis>
+  <sequence>75</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>55</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>5273</param>
+</record>
+<record>
+  <date>2015-11-12T14:10:14</date>
+  <millis>1447355414844</millis>
+  <sequence>76</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>298</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:10:28</date>
+  <millis>1447355428149</millis>
+  <sequence>77</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>77</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>144</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:10:40</date>
+  <millis>1447355440710</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>49</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>174</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:10:53</date>
+  <millis>1447355453105</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>49</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>162</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:11:05</date>
+  <millis>1447355465572</millis>
+  <sequence>80</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>62</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>158</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:11:20</date>
+  <millis>1447355480828</millis>
+  <sequence>83</sequence>
+  <logger>org.netbeans.ui.performance</logger>
+  <level>700</level>
+  <thread>49</thread>
+  <message>Snapshot statistics</message>
+  <param>1447355471098</param>
+  <param>Samples</param>
+  <param>966</param>
+  <param>Average</param>
+  <param>10.053268525879908</param>
+  <param>Minimum</param>
+  <param>6.35454</param>
+  <param>Maximum</param>
+  <param>30.895584</param>
+  <param>Std. deviation</param>
+  <param>0.8954071109112148</param>
+</record>
+<record>
+  <date>2015-11-12T14:11:21</date>
+  <millis>1447355481220</millis>
+  <sequence>84</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>62</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>313</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:11:33</date>
+  <millis>1447355493977</millis>
+  <sequence>240</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>76</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>155</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:11:46</date>
+  <millis>1447355506594</millis>
+  <sequence>241</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>58</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
@@ -1181,188 +2453,28 @@
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:22:35</date>
-  <millis>1447298555046</millis>
-  <sequence>83</sequence>
+  <date>2015-11-12T14:11:59</date>
+  <millis>1447355519172</millis>
+  <sequence>242</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>51</thread>
+  <thread>84</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>120</param>
+  <param>160</param>
   <param>0</param>
   <param>remove</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:22:47</date>
-  <millis>1447298567444</millis>
-  <sequence>84</sequence>
+  <date>2015-11-12T14:12:11</date>
+  <millis>1447355531649</millis>
+  <sequence>243</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>34</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>197</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:22:47</date>
-  <millis>1447298567640</millis>
-  <sequence>85</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>34</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>181</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:22:59</date>
-  <millis>1447298579983</millis>
-  <sequence>86</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>47</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>150</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:23:00</date>
-  <millis>1447298580133</millis>
-  <sequence>87</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>47</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>140</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:23:12</date>
-  <millis>1447298592336</millis>
-  <sequence>88</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>34</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>141</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:23:12</date>
-  <millis>1447298592556</millis>
-  <sequence>89</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>34</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>196</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:23:24</date>
-  <millis>1447298604666</millis>
-  <sequence>90</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>47</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>135</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:23:24</date>
-  <millis>1447298604808</millis>
-  <sequence>91</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>47</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>130</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:23:36</date>
-  <millis>1447298616983</millis>
-  <sequence>92</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>30</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>151</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:23:37</date>
-  <millis>1447298617239</millis>
-  <sequence>93</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>30</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>229</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:23:49</date>
-  <millis>1447298629420</millis>
-  <sequence>94</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>34</thread>
+  <thread>62</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
@@ -1373,383 +2485,39 @@
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:23:49</date>
-  <millis>1447298629579</millis>
-  <sequence>95</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>34</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>150</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:24:01</date>
-  <millis>1447298641764</millis>
-  <sequence>96</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>34</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>135</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:24:01</date>
-  <millis>1447298641923</millis>
-  <sequence>97</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>34</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>143</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:24:14</date>
-  <millis>1447298654135</millis>
-  <sequence>98</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>51</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>154</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:24:14</date>
-  <millis>1447298654285</millis>
-  <sequence>99</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>51</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>134</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:24:26</date>
-  <millis>1447298666488</millis>
-  <sequence>100</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>47</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>122</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:24:26</date>
-  <millis>1447298666661</millis>
-  <sequence>101</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>47</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>147</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:24:33</date>
-  <millis>1447298673573</millis>
-  <sequence>102</sequence>
+  <date>2015-11-12T14:12:12</date>
+  <millis>1447355532520</millis>
+  <sequence>244</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
-  <thread>47</thread>
-  <message>LOG_WINDOW_ACTIVATED</message>
-  <key>LOG_WINDOW_ACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>172</param>
-</record>
-<record>
-  <date>2015-11-11T22:24:38</date>
-  <millis>1447298678853</millis>
-  <sequence>103</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>34</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>148</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:24:39</date>
-  <millis>1447298679016</millis>
-  <sequence>104</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>34</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>150</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:24:56</date>
-  <millis>1447298696075</millis>
-  <sequence>105</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>35</thread>
+  <thread>43</thread>
   <message>LOG_WINDOW_DEACTIVATED</message>
   <key>LOG_WINDOW_DEACTIVATED</key>
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2015-11-11T22:26:15</date>
-  <millis>1447298775053</millis>
-  <sequence>106</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>65</thread>
-  <message>LOG_WINDOW_ACTIVATED</message>
-  <key>LOG_WINDOW_ACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>65</param>
-</record>
-<record>
-  <date>2015-11-11T22:26:20</date>
-  <millis>1447298780967</millis>
-  <sequence>107</sequence>
+  <date>2015-11-12T14:12:24</date>
+  <millis>1447355544172</millis>
+  <sequence>245</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>67</thread>
+  <thread>76</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>568</param>
+  <param>159</param>
   <param>0</param>
   <param>remove</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:26:32</date>
-  <millis>1447298792902</millis>
-  <sequence>108</sequence>
+  <date>2015-11-12T14:12:36</date>
+  <millis>1447355556605</millis>
+  <sequence>246</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>800</level>
-  <thread>69</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>150</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:26:45</date>
-  <millis>1447298805219</millis>
-  <sequence>109</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>67</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>157</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:26:57</date>
-  <millis>1447298817524</millis>
-  <sequence>110</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>67</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>142</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:27:09</date>
-  <millis>1447298829935</millis>
-  <sequence>111</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>63</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>150</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:27:22</date>
-  <millis>1447298842330</millis>
-  <sequence>112</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>63</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>147</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:27:34</date>
-  <millis>1447298854898</millis>
-  <sequence>113</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>69</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>141</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:27:47</date>
-  <millis>1447298867190</millis>
-  <sequence>114</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>63</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>141</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:27:59</date>
-  <millis>1447298879536</millis>
-  <sequence>115</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>63</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>125</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:28:11</date>
-  <millis>1447298891976</millis>
-  <sequence>116</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>68</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>148</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:28:24</date>
-  <millis>1447298904324</millis>
-  <sequence>117</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>67</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>152</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:28:36</date>
-  <millis>1447298916781</millis>
-  <sequence>118</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>68</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>146</param>
-  <param>0</param>
-  <param>remove</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2015-11-11T22:28:49</date>
-  <millis>1447298929275</millis>
-  <sequence>119</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>800</level>
-  <thread>75</thread>
+  <thread>76</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
@@ -1760,264 +2528,757 @@
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:29:03</date>
-  <millis>1447298943687</millis>
-  <sequence>120</sequence>
+  <date>2015-11-12T14:12:49</date>
+  <millis>1447355569113</millis>
+  <sequence>247</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>58</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>130</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:13:01</date>
+  <millis>1447355581672</millis>
+  <sequence>248</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>62</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>160</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:13:14</date>
+  <millis>1447355594267</millis>
+  <sequence>249</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>62</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>168</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:13:26</date>
+  <millis>1447355606663</millis>
+  <sequence>250</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>62</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>133</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:13:39</date>
+  <millis>1447355619234</millis>
+  <sequence>251</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>76</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>152</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:13:51</date>
+  <millis>1447355631976</millis>
+  <sequence>252</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>159</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:14:04</date>
+  <millis>1447355644514</millis>
+  <sequence>253</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>132</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:14:17</date>
+  <millis>1447355657010</millis>
+  <sequence>254</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>62</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>181</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:14:29</date>
+  <millis>1447355669488</millis>
+  <sequence>255</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>62</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>140</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:14:42</date>
+  <millis>1447355682002</millis>
+  <sequence>256</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>58</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>145</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:14:54</date>
+  <millis>1447355694513</millis>
+  <sequence>257</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>49</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>150</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:15:07</date>
+  <millis>1447355707002</millis>
+  <sequence>258</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>58</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>129</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:15:19</date>
+  <millis>1447355719514</millis>
+  <sequence>259</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>49</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>146</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:15:32</date>
+  <millis>1447355732088</millis>
+  <sequence>260</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>49</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>162</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:16:08</date>
+  <millis>1447355768846</millis>
+  <sequence>38</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2015-11-12T14:16:08</date>
+  <millis>1447355768905</millis>
+  <sequence>39</sequence>
+  <level>300</level>
+  <thread>15</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T14:16:08</date>
+  <millis>1447355768906</millis>
+  <sequence>40</sequence>
+  <level>700</level>
+  <thread>15</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2015-11-12T14:16:13</date>
+  <millis>1447355773323</millis>
+  <sequence>52</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>15</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2015-11-12T14:16:18</date>
+  <millis>1447355778393</millis>
+  <sequence>55</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>800</level>
+  <thread>50</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2015-11-12T14:16:18</date>
+  <millis>1447355778995</millis>
+  <sequence>56</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>34</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>J2SEProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T14:16:18</date>
+  <millis>1447355778997</millis>
+  <sequence>57</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>34</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2015-11-12T14:16:19</date>
+  <millis>1447355779363</millis>
+  <sequence>58</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>53</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T14:16:20</date>
+  <millis>1447355780982</millis>
+  <sequence>61</sequence>
+  <level>800</level>
+  <thread>50</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8476975104</param>
+</record>
+<record>
+  <date>2015-11-12T14:16:25</date>
+  <millis>1447355785365</millis>
+  <sequence>67</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>53</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>5998</param>
+  <param>java</param>
+  <param>61</param>
+  <param>4661</param>
+  <param>SpringBinary</param>
+  <param>60</param>
+  <param>22</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>6</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>63</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T14:16:38</date>
+  <millis>1447355798600</millis>
+  <sequence>68</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>937</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:16:50</date>
+  <millis>1447355810537</millis>
+  <sequence>70</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>50</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>211</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:17:02</date>
+  <millis>1447355822725</millis>
+  <sequence>71</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>14</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>347</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:17:03</date>
+  <millis>1447355823987</millis>
+  <sequence>72</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>138</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:17:04</date>
+  <millis>1447355824166</millis>
+  <sequence>73</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>140</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:17:14</date>
+  <millis>1447355834997</millis>
+  <sequence>74</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>156</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:17:15</date>
+  <millis>1447355835179</millis>
+  <sequence>75</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>169</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:17:27</date>
+  <millis>1447355847551</millis>
+  <sequence>76</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>51</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>183</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:17:27</date>
+  <millis>1447355847768</millis>
+  <sequence>77</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>51</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>203</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:17:39</date>
+  <millis>1447355859944</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>161</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:17:40</date>
+  <millis>1447355860089</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>55</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>133</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:17:52</date>
+  <millis>1447355872402</millis>
+  <sequence>80</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>156</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:17:52</date>
+  <millis>1447355872574</millis>
+  <sequence>81</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>156</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:18:04</date>
+  <millis>1447355884715</millis>
+  <sequence>82</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>51</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>172</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:18:04</date>
+  <millis>1447355884856</millis>
+  <sequence>83</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>51</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>125</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:18:16</date>
+  <millis>1447355896990</millis>
+  <sequence>84</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>187</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:18:17</date>
+  <millis>1447355897162</millis>
+  <sequence>85</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>156</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:18:29</date>
+  <millis>1447355909459</millis>
+  <sequence>86</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>51</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>156</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:18:29</date>
+  <millis>1447355909616</millis>
+  <sequence>87</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>51</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>141</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:18:35</date>
+  <millis>1447355915788</millis>
+  <sequence>88</sequence>
   <logger>org.netbeans.ui.metrics.editor</logger>
   <level>800</level>
-  <thread>67</thread>
+  <thread>77</thread>
   <message>USG_EDITOR_MIME_TYPE</message>
   <param>text/x-java</param>
   <param>1</param>
 </record>
 <record>
-  <date>2015-11-11T22:29:03</date>
-  <millis>1447298943931</millis>
-  <sequence>121</sequence>
+  <date>2015-11-12T14:18:36</date>
+  <millis>1447355916725</millis>
+  <sequence>89</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>73</thread>
+  <thread>33</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>487621</param>
+  <param>131360</param>
 </record>
 <record>
-  <date>2015-11-11T22:29:04</date>
-  <millis>1447298944030</millis>
-  <sequence>122</sequence>
+  <date>2015-11-12T14:18:36</date>
+  <millis>1447355916772</millis>
+  <sequence>90</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>73</thread>
+  <thread>33</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2015-11-11T22:29:04</date>
-  <millis>1447298944083</millis>
-  <sequence>123</sequence>
+  <date>2015-11-12T14:18:36</date>
+  <millis>1447355916835</millis>
+  <sequence>91</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>73</thread>
+  <thread>33</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>53</param>
+  <param>63</param>
 </record>
 <record>
-  <date>2015-11-11T22:29:04</date>
-  <millis>1447298944128</millis>
-  <sequence>124</sequence>
+  <date>2015-11-12T14:18:36</date>
+  <millis>1447355916897</millis>
+  <sequence>92</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>73</thread>
+  <thread>33</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>2</param>
+  <param>0</param>
 </record>
 <record>
-  <date>2015-11-11T22:29:04</date>
-  <millis>1447298944188</millis>
-  <sequence>128</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>35</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2015-11-11T22:43:24</date>
-  <millis>1447299804800</millis>
-  <sequence>38</sequence>
-  <level>300</level>
-  <thread>15</thread>
-  <message>CPU INFO</message>
-  <param>4</param>
-</record>
-<record>
-  <date>2015-11-11T22:43:24</date>
-  <millis>1447299804815</millis>
-  <sequence>39</sequence>
-  <level>300</level>
-  <thread>15</thread>
-  <message>SCREEN SIZE</message>
-  <param>1366</param>
-  <param>768</param>
-  <param>1</param>
-</record>
-<record>
-  <date>2015-11-11T22:43:24</date>
-  <millis>1447299804815</millis>
-  <sequence>40</sequence>
-  <level>700</level>
-  <thread>15</thread>
-  <message>IDE_STARTUP</message>
-</record>
-<record>
-  <date>2015-11-11T22:43:27</date>
-  <millis>1447299807129</millis>
-  <sequence>52</sequence>
-  <logger>org.netbeans.ui.metrics.laf</logger>
-  <level>800</level>
-  <thread>15</thread>
-  <message>USG_LOOK_AND_FEEL</message>
-  <param>Windows</param>
-  <param>Windows</param>
-</record>
-<record>
-  <date>2015-11-11T22:43:30</date>
-  <millis>1447299810819</millis>
-  <sequence>55</sequence>
-  <logger>org.netbeans.ui.metrics.vcs</logger>
-  <level>800</level>
-  <thread>49</thread>
-  <message>USG_VCS_CLIENT</message>
-  <param>GIT</param>
-  <param>JAVALIB</param>
-</record>
-<record>
-  <date>2015-11-11T22:43:31</date>
-  <millis>1447299811035</millis>
-  <sequence>56</sequence>
-  <logger>org.netbeans.ui.projects</logger>
-  <level>700</level>
-  <thread>30</thread>
-  <message>UI_INIT_PROJECTS</message>
-  <key>UI_INIT_PROJECTS</key>
-  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-  <param>J2SEProject</param>
-  <param>1</param>
-</record>
-<record>
-  <date>2015-11-11T22:43:31</date>
-  <millis>1447299811035</millis>
-  <sequence>57</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>800</level>
-  <thread>30</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-11-11T22:43:31</date>
-  <millis>1447299811129</millis>
-  <sequence>58</sequence>
+  <date>2015-11-12T14:18:36</date>
+  <millis>1447355916929</millis>
+  <sequence>93</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>47</thread>
+  <thread>33</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-11-11T22:43:33</date>
-  <millis>1447299813315</millis>
-  <sequence>61</sequence>
-  <level>800</level>
-  <thread>32</thread>
-  <message>MEMORY</message>
-  <key>MEMORY</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>8476975104</param>
-</record>
-<record>
-  <date>2015-11-11T22:43:34</date>
-  <millis>1447299814861</millis>
-  <sequence>67</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>47</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>3732</param>
-  <param>java</param>
-  <param>61</param>
-  <param>1153</param>
-  <param>SpringBinary</param>
-  <param>60</param>
-  <param>0</param>
-  <param>TaskListIndexer</param>
-  <param>1</param>
-  <param>0</param>
-  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
-  <param>1</param>
   <param>32</param>
-  <param>CopyResourcesIndexer</param>
-  <param>1</param>
-  <param>0</param>
-  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
-  <param>1</param>
+</record>
+<record>
+  <date>2015-11-12T14:18:36</date>
+  <millis>1447355916960</millis>
+  <sequence>94</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>33</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2015-11-11T22:44:05</date>
-  <millis>1447299845626</millis>
-  <sequence>69</sequence>
+  <date>2015-11-12T14:18:37</date>
+  <millis>1447355917022</millis>
+  <sequence>98</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
-  <thread>35</thread>
+  <thread>38</thread>
   <message>LOG_WINDOW_DEACTIVATED</message>
   <key>LOG_WINDOW_DEACTIVATED</key>
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2015-11-11T22:47:36</date>
-  <millis>1447300056244</millis>
-  <sequence>70</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>57</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>241383</param>
-</record>
-<record>
-  <date>2015-11-11T22:47:36</date>
-  <millis>1447300056271</millis>
-  <sequence>71</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>57</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-11-11T22:47:36</date>
-  <millis>1447300056288</millis>
-  <sequence>72</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>57</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>17</param>
-</record>
-<record>
-  <date>2015-11-11T22:47:36</date>
-  <millis>1447300056304</millis>
-  <sequence>73</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>57</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-11-11T22:51:47</date>
-  <millis>1447300307845</millis>
+  <date>2015-11-12T14:19:23</date>
+  <millis>1447355963110</millis>
   <sequence>38</sequence>
   <level>300</level>
   <thread>15</thread>
@@ -2025,8 +3286,8 @@
   <param>4</param>
 </record>
 <record>
-  <date>2015-11-11T22:51:47</date>
-  <millis>1447300307850</millis>
+  <date>2015-11-12T14:19:23</date>
+  <millis>1447355963110</millis>
   <sequence>39</sequence>
   <level>300</level>
   <thread>15</thread>
@@ -2036,16 +3297,16 @@
   <param>1</param>
 </record>
 <record>
-  <date>2015-11-11T22:51:47</date>
-  <millis>1447300307851</millis>
+  <date>2015-11-12T14:19:23</date>
+  <millis>1447355963110</millis>
   <sequence>40</sequence>
   <level>700</level>
   <thread>15</thread>
   <message>IDE_STARTUP</message>
 </record>
 <record>
-  <date>2015-11-11T22:51:49</date>
-  <millis>1447300309941</millis>
+  <date>2015-11-12T14:19:25</date>
+  <millis>1447355965017</millis>
   <sequence>52</sequence>
   <logger>org.netbeans.ui.metrics.laf</logger>
   <level>800</level>
@@ -2055,23 +3316,12 @@
   <param>Windows</param>
 </record>
 <record>
-  <date>2015-11-11T22:51:52</date>
-  <millis>1447300312336</millis>
-  <sequence>54</sequence>
-  <logger>org.netbeans.ui.metrics.vcs</logger>
-  <level>800</level>
-  <thread>48</thread>
-  <message>USG_VCS_CLIENT</message>
-  <param>GIT</param>
-  <param>JAVALIB</param>
-</record>
-<record>
-  <date>2015-11-11T22:51:53</date>
-  <millis>1447300313389</millis>
-  <sequence>56</sequence>
+  <date>2015-11-12T14:19:28</date>
+  <millis>1447355968611</millis>
+  <sequence>55</sequence>
   <logger>org.netbeans.ui.projects</logger>
   <level>700</level>
-  <thread>14</thread>
+  <thread>34</thread>
   <message>UI_INIT_PROJECTS</message>
   <key>UI_INIT_PROJECTS</key>
   <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
@@ -2080,61 +3330,72 @@
   <param>1</param>
 </record>
 <record>
-  <date>2015-11-11T22:51:53</date>
-  <millis>1447300313389</millis>
-  <sequence>57</sequence>
+  <date>2015-11-12T14:19:28</date>
+  <millis>1447355968611</millis>
+  <sequence>56</sequence>
   <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>800</level>
-  <thread>14</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-11-11T22:51:53</date>
-  <millis>1447300313821</millis>
-  <sequence>58</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>800</level>
-  <thread>22</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-11-11T22:51:55</date>
-  <millis>1447300315090</millis>
-  <sequence>61</sequence>
   <level>800</level>
   <thread>34</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2015-11-12T14:19:28</date>
+  <millis>1447355968736</millis>
+  <sequence>57</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>52</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-11-12T14:19:29</date>
+  <millis>1447355969267</millis>
+  <sequence>58</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>800</level>
+  <thread>31</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2015-11-12T14:19:31</date>
+  <millis>1447355971829</millis>
+  <sequence>62</sequence>
+  <level>800</level>
+  <thread>56</thread>
   <message>MEMORY</message>
   <key>MEMORY</key>
   <catalog>&lt;null&gt;</catalog>
   <param>8476975104</param>
 </record>
 <record>
-  <date>2015-11-11T22:51:57</date>
-  <millis>1447300317018</millis>
+  <date>2015-11-12T14:19:33</date>
+  <millis>1447355973033</millis>
   <sequence>67</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>22</thread>
+  <thread>52</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>3197</param>
+  <param>4266</param>
   <param>java</param>
   <param>61</param>
-  <param>1101</param>
+  <param>1440</param>
   <param>SpringBinary</param>
   <param>60</param>
-  <param>17</param>
+  <param>141</param>
   <param>TaskListIndexer</param>
   <param>1</param>
   <param>0</param>
   <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
   <param>1</param>
-  <param>47</param>
+  <param>16</param>
   <param>CopyResourcesIndexer</param>
   <param>1</param>
   <param>0</param>
@@ -2143,55 +3404,89 @@
   <param>0</param>
 </record>
 <record>
-  <date>2015-11-11T22:52:07</date>
-  <millis>1447300327397</millis>
-  <sequence>68</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>36</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2015-11-11T22:52:07</date>
-  <millis>1447300327419</millis>
+  <date>2015-11-12T14:20:06</date>
+  <millis>1447356006190</millis>
   <sequence>69</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>36</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>35</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>744</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:52:09</date>
-  <millis>1447300329022</millis>
+  <date>2015-11-12T14:20:21</date>
+  <millis>1447356021073</millis>
   <sequence>70</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>49</thread>
-  <message>LOG_WINDOW_ACTIVATED</message>
-  <key>LOG_WINDOW_ACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>117</param>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>35</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>139</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T22:52:11</date>
-  <millis>1447300331315</millis>
+  <date>2015-11-12T14:20:29</date>
+  <millis>1447356029640</millis>
   <sequence>71</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>49</thread>
-  <message>LOG_WINDOW_ACTIVATED</message>
-  <key>LOG_WINDOW_ACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>55</param>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>14</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>438</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
 </record>
 <record>
-  <date>2015-11-11T23:15:35</date>
-  <millis>1447301735838</millis>
+  <date>2015-11-12T14:20:42</date>
+  <millis>1447356042422</millis>
   <sequence>72</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>14</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>152</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:20:42</date>
+  <millis>1447356042573</millis>
+  <sequence>73</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>14</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>140</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:20:53</date>
+  <millis>1447356053887</millis>
+  <sequence>74</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
   <thread>36</thread>
@@ -2200,69 +3495,197 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2015-11-11T23:20:01</date>
-  <millis>1447302001328</millis>
-  <sequence>73</sequence>
+  <date>2015-11-12T14:20:54</date>
+  <millis>1447356054919</millis>
+  <sequence>75</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>52</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>140</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:20:55</date>
+  <millis>1447356055083</millis>
+  <sequence>76</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>52</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>149</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:21:07</date>
+  <millis>1447356067889</millis>
+  <sequence>77</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>35</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>136</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:21:08</date>
+  <millis>1447356068035</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>35</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>135</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:21:20</date>
+  <millis>1447356080382</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>14</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>195</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:21:20</date>
+  <millis>1447356080521</millis>
+  <sequence>80</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>14</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>128</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:21:32</date>
+  <millis>1447356092823</millis>
+  <sequence>81</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>52</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>166</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:21:33</date>
+  <millis>1447356093033</millis>
+  <sequence>82</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>800</level>
+  <thread>52</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>198</param>
+  <param>0</param>
+  <param>remove</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2015-11-12T14:21:33</date>
+  <millis>1447356093820</millis>
+  <sequence>83</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
-  <thread>61</thread>
+  <thread>48</thread>
   <message>LOG_WINDOW_ACTIVATED</message>
   <key>LOG_WINDOW_ACTIVATED</key>
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>172</param>
+  <param>1042</param>
 </record>
 <record>
-  <date>2015-11-11T23:20:04</date>
-  <millis>1447302004173</millis>
-  <sequence>74</sequence>
+  <date>2015-11-12T14:21:44</date>
+  <millis>1447356104073</millis>
+  <sequence>84</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>61</thread>
+  <thread>52</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>1687155</param>
+  <param>131040</param>
 </record>
 <record>
-  <date>2015-11-11T23:20:04</date>
-  <millis>1447302004189</millis>
-  <sequence>75</sequence>
+  <date>2015-11-12T14:21:44</date>
+  <millis>1447356104107</millis>
+  <sequence>85</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>61</thread>
+  <thread>52</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2015-11-11T23:20:04</date>
-  <millis>1447302004220</millis>
-  <sequence>76</sequence>
+  <date>2015-11-12T14:21:44</date>
+  <millis>1447356104129</millis>
+  <sequence>86</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>61</thread>
+  <thread>52</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>31</param>
+  <param>22</param>
 </record>
 <record>
-  <date>2015-11-11T23:20:04</date>
-  <millis>1447302004236</millis>
-  <sequence>77</sequence>
+  <date>2015-11-12T14:21:44</date>
+  <millis>1447356104173</millis>
+  <sequence>87</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>61</thread>
+  <thread>52</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2015-11-11T23:20:04</date>
-  <millis>1447302004283</millis>
-  <sequence>81</sequence>
+  <date>2015-11-12T14:21:44</date>
+  <millis>1447356104215</millis>
+  <sequence>91</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
   <thread>36</thread>

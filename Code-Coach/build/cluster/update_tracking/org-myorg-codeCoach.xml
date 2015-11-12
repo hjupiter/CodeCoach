@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.myorg.codeCoach">
-    <module_version install_time="1447300298211" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1447355953334" last="true" origin="installer" specification_version="1.0">
         <file crc="4065311728" name="config/Modules/org-myorg-codeCoach.xml"/>
-        <file crc="582232214" name="modules/org-myorg-codeCoach.jar"/>
+        <file crc="3023155798" name="modules/org-myorg-codeCoach.jar"/>
     </module_version>
 </module>
