@@ -4,23 +4,18 @@
 <filesystem>
     <folder name="Actions">
         <folder name="File">
-            <file name="org-myorg-codeCoach-SomeAction.instance">
-                <!--org.myorg.codeCoach.SomeAction-->
-                <attr
-                    bundlevalue="org.myorg.codeCoach.Bundle#CTL_SomeAction" name="displayName"/>
-                <attr
-                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
-                <attr name="delegate" newvalue="org.myorg.codeCoach.SomeAction"/>
-                <attr name="iconBase" stringvalue="org/myorg/codeCoach/code24.png"/>
-                <attr boolvalue="false" name="noIconInMenu"/>
+            <file name="org-myorg-codeCoach-CodeCoachAction.instance">
+                <!--org.myorg.codeCoach.CodeCoachAction-->
+                <attr name="displayName" stringvalue="NOT-USED"/>
+                <attr name="instanceCreate" newvalue="org.myorg.codeCoach.CodeCoachAction"/>
             </file>
         </folder>
     </folder>
     <folder name="Toolbars">
         <folder name="File">
-            <file name="org-myorg-codeCoach-SomeAction.shadow">
-                <!--org.myorg.codeCoach.SomeAction-->
-                <attr name="originalFile" stringvalue="Actions/File/org-myorg-codeCoach-SomeAction.instance"/>
+            <file name="org-myorg-codeCoach-CodeCoachAction.shadow">
+                <!--org.myorg.codeCoach.CodeCoachAction-->
+                <attr name="originalFile" stringvalue="Actions/File/org-myorg-codeCoach-CodeCoachAction.instance"/>
                 <attr intvalue="0" name="position"/>
             </file>
         </folder>
