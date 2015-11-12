@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Wednesday, November 11, 2015 10:20:37 PM COT
+>Log Session: Thursday, November 12, 2015 1:52:35 PM COT
 >System Info: 
   Product Version         = NetBeans IDE 8.0.2 (Build 201411181905) (#8230772f5f18)
   Operating System        = Windows 8 version 6.2 running on amd64
@@ -510,15 +510,16 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.apache.commons.lang [2.4.0 2.4.0]
 	javaewah.dummy [0.7.9 0.7.9]
 	com.jcraft.jzlib [1.0.7 1.0.7]
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.jgit.java7@3.4.1.201406201815-r resolved
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.textile.core@1.9.0.20131007-2055 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.confluence.core@1.9.0.20131007-2055 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.textile.core@1.9.0.20131007-2055 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.jgit.java7@3.4.1.201406201815-r resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 started
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Windows
 INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows system proxy resolver: auto detect
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 620 ms for org.openide.awt.MenuBar$MenuBarFolder@78bdf5bc(FolderList{MultiFileObject@f8837a[Menu]})
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
 WARNING [org.netbeans.modules.git]: Home folder C:\Users\e014hp lies under a git versioned root C:\Users\e014hp. Expecting lots of performance issues.
 Diagnostic information
@@ -551,43 +552,17 @@ Compiler: HotSpot 64-Bit Tiered Compilers
 Heap memory usage: initial 32,0MB maximum 910,5MB
 Non heap memory usage: initial 2,4MB maximum -1b
 Garbage collector: PS Scavenge (Collections=18 Total time spent=0s)
-Garbage collector: PS MarkSweep (Collections=3 Total time spent=0s)
-Classes: loaded=9624 total loaded=9624 unloaded 0
+Garbage collector: PS MarkSweep (Collections=3 Total time spent=1s)
+Classes: loaded=9466 total loaded=9466 unloaded 0
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8.476.975.104
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 2.215 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 20 binary roots took: 1.000 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\e014hp\Documents\NetBeansProjects\Juego\test took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\e014hp\Documents\NetBeansProjects\Juego\src took: 312 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 328 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-SEVERE [global]
-java.lang.NullPointerException
-	at org.myorg.codeCoach.DownArrowPanel.runButtonActionPerformed(DownArrowPanel.java:128)
-	at org.myorg.codeCoach.DownArrowPanel.access$100(DownArrowPanel.java:33)
-	at org.myorg.codeCoach.DownArrowPanel$2.actionPerformed(DownArrowPanel.java:97)
-	at java.awt.Button.processActionEvent(Button.java:409)
-	at java.awt.Button.processEvent(Button.java:377)
-	at java.awt.Component.dispatchEventImpl(Component.java:4881)
-	at java.awt.Component.dispatchEvent(Component.java:4703)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
-	at java.awt.EventQueue$4.run(EventQueue.java:731)
-	at java.awt.EventQueue$4.run(EventQueue.java:729)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-[catch] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-WARNING [org.netbeans.modules.parsing.impl.TaskProcessor]: ParserManager.parse called in AWT event thread by: org.myorg.codeCoach.DownArrowPanel.runButtonActionPerformed(DownArrowPanel.java:134)
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 256
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 stopped
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 stopped
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 6.166 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 20 binary roots took: 2.564 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\e014hp\Documents\NetBeansProjects\C_Client\test took: 14 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\e014hp\Documents\NetBeansProjects\C_Client\src took: 635 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 18 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 649 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 18 ms]
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Program Files\NetBeans 8.0.2\profiler\modules\org-netbeans-modules-profiler-projectsupport.jar took 812 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Program Files\NetBeans 8.0.2\ide\modules\org-netbeans-modules-editor-lib.jar took 830 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Program Files\NetBeans 8.0.2\ide\modules\org-netbeans-modules-editor-fold.jar took 818 ms
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: CancelableTaskWrapper[task: org.netbeans.modules.java.hints.spiimpl.hints.HintsTask@10b49ff9, phase: RESOLVED, priority: 500] : class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 641 ms.
+WARNING [org.netbeans.modules.parsing.impl.TaskProcessor]: ParserManager.parse called in AWT event thread by: org.myorg.codeCoach.DownArrowPanel.jTB_activityActionPerformed(DownArrowPanel.java:138)
+WARNING [org.netbeans.core.TimableEventQueue]: too much time in AWT thread org.netbeans.modules.sampler.InternalSampler@638405c8

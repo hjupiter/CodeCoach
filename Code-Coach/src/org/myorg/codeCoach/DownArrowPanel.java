@@ -7,11 +7,6 @@ package org.myorg.codeCoach;
 
 import java.io.IOException;
 import java.util.Collection;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 import javax.swing.text.Document;
 import org.netbeans.api.java.source.CompilationController;
 import org.netbeans.api.java.source.JavaSource;
@@ -25,7 +20,8 @@ import org.openide.util.LookupEvent;
 import org.openide.util.LookupListener;
 import org.openide.util.Utilities;
 import org.openide.util.WeakListeners;
-
+import javax.swing.JDialog;
+import javax.swing.JFrame;
 /**
  *
  * @author JoycePC
@@ -34,8 +30,10 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
     
     private Lookup.Result<DataObject> projects;
     private DataObject context;
-    private boolean buttonStatus; //activated (1) desactivated (0)
-    
+    private Document openDocument;
+    private boolean buttonStatus; //activated (1) desactivated (0)   
+    private JFrame frame;
+       
     public DownArrowPanel() {
         initComponents();
         projects = Utilities.actionsGlobalContext().lookupResult(DataObject.class);
@@ -43,6 +41,9 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
                 WeakListeners.create(LookupListener.class, this, projects));
         resultChanged(new LookupEvent(projects));
         this.buttonStatus=false;
+        this.frame=new JFrame();
+        jTB_activity.setEnabled(true);
+        jTB_arrow.setEnabled(false);//true to enable
     }
 @Override
     public void resultChanged(LookupEvent le) {
@@ -65,8 +66,8 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
 
         dataProcess = new javax.swing.JFrame();
         jLabel1 = new javax.swing.JLabel();
-        arrow = new javax.swing.JToggleButton();
-        runButton = new java.awt.Button();
+        jTB_arrow = new javax.swing.JToggleButton();
+        jTB_activity = new javax.swing.JToggleButton();
 
         dataProcess.setMinimumSize(new java.awt.Dimension(200, 200));
 
@@ -83,19 +84,19 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        arrow.setIcon(new javax.swing.ImageIcon("C:\\Users\\e014hp\\Documents\\NetBeansProjects\\Code-Coach\\icon\\barrow16.png")); // NOI18N
-        org.openide.awt.Mnemonics.setLocalizedText(arrow, org.openide.util.NbBundle.getMessage(DownArrowPanel.class, "DownArrowPanel.arrow.text")); // NOI18N
-        arrow.addActionListener(new java.awt.event.ActionListener() {
+        jTB_arrow.setIcon(new javax.swing.ImageIcon("C:\\Users\\e014hp\\Documents\\NetBeansProjects\\Code-Coach\\icon\\barrow16.png")); // NOI18N
+        org.openide.awt.Mnemonics.setLocalizedText(jTB_arrow, org.openide.util.NbBundle.getMessage(DownArrowPanel.class, "DownArrowPanel.jTB_arrow.text")); // NOI18N
+        jTB_arrow.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                arrowActionPerformed(evt);
+                jTB_arrowActionPerformed(evt);
             }
         });
 
-        runButton.setActionCommand(org.openide.util.NbBundle.getMessage(DownArrowPanel.class, "DownArrowPanel.runButton.actionCommand")); // NOI18N
-        runButton.setLabel(org.openide.util.NbBundle.getMessage(DownArrowPanel.class, "DownArrowPanel.runButton.label")); // NOI18N
-        runButton.addActionListener(new java.awt.event.ActionListener() {
+        org.openide.awt.Mnemonics.setLocalizedText(jTB_activity, org.openide.util.NbBundle.getMessage(DownArrowPanel.class, "DownArrowPanel.jTB_activity.text")); // NOI18N
+        jTB_activity.setToolTipText(org.openide.util.NbBundle.getMessage(DownArrowPanel.class, "DownArrowPanel.jTB_activity.toolTipText")); // NOI18N
+        jTB_activity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                runButtonActionPerformed(evt);
+                jTB_activityActionPerformed(evt);
             }
         });
 
@@ -104,14 +105,14 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addComponent(runButton, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTB_activity, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(arrow, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jTB_arrow, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-            .addComponent(arrow, javax.swing.GroupLayout.DEFAULT_SIZE, 36, Short.MAX_VALUE)
-            .addComponent(runButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jTB_arrow, javax.swing.GroupLayout.DEFAULT_SIZE, 36, Short.MAX_VALUE)
+            .addComponent(jTB_activity, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -120,55 +121,74 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
         
     }//GEN-LAST:event_activityButtonActionPerformed
 
-    private void arrowActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_arrowActionPerformed
+    private void jTB_arrowActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTB_arrowActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_arrowActionPerformed
+    }//GEN-LAST:event_jTB_arrowActionPerformed
 
-    private void runButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_runButtonActionPerformed
+    private void jTB_activityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTB_activityActionPerformed
         // TODO add your handling code here:
         if(context!=null){
-            final FileObject fileObject = context.getPrimaryFile(); 
-            JavaSource javaSource = JavaSource.forFileObject(fileObject); 
-            if (javaSource == null) { 
-                StatusDisplayer.getDefault().setStatusText("The item selected is not a source file: " + fileObject.getPath()); 
-            } else { 
-                try { 
-                    javaSource.runUserActionTask(new Task<CompilationController>() { 
-                        public void run(CompilationController arg0) throws Exception { 
-                            arg0.toPhase(JavaSource.Phase.ELEMENTS_RESOLVED); 
-                            Document document = arg0.getDocument(); 
+            final FileObject fileObject = context.getPrimaryFile();
+            JavaSource javaSource = JavaSource.forFileObject(fileObject);
+            if (javaSource == null) {
+                setStatusAndActivity(false);
+                StatusDisplayer.getDefault().setStatusText("The item selected is not a source file: " + fileObject.getPath());
+            } else {
+                try {
+                    javaSource.runUserActionTask(new Task<CompilationController>() {
+                        public void run(CompilationController arg0) throws Exception {
+                            arg0.toPhase(JavaSource.Phase.ELEMENTS_RESOLVED);
+                            Document document = arg0.getDocument();
                             if (document != null && !buttonStatus) {
+                                activityDialog initDialog = new activityDialog(frame, true);
                                 StatusDisplayer.getDefault().setStatusText("Analysing the source file: " + fileObject.getPath());
-                                JPanel panel = new DataProcessing();
-                                JFrame frame = new JFrame();
-                                Object[] options = { "CONTINUE", "CANCEL" };
-                                Icon icon = new ImageIcon("icon/icontech.png");
-                                JOptionPane JOpPane = new JOptionPane();
-                                JOpPane.showOptionDialog(frame,panel, "Analysing source file", JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, icon , options, options[0]);
-                            } else if(document != null && buttonStatus){
-                                JPanel panel = new endAnalysis();
-                                JFrame frame = new JFrame();
-                                Object[] options = { "STOP","CONTINUE"};
-                                Icon icon = new ImageIcon("icon/icontech.png");
-                                JOptionPane JOpPane = new JOptionPane();
-                                JOpPane.showOptionDialog(frame,panel, "Analysing source file", JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, icon , options, options[0]);
-                            }else{ 
-                                StatusDisplayer.getDefault().setStatusText("The source file is not open!"); 
-                            } 
-                        } 
+                                if (initDialog.status.equals("cancel")){
+                                    setStatusAndActivity(false);
+                                    jTB_arrow.setEnabled(false);
+                                    StatusDisplayer.getDefault().setStatusText("Code Coach has stopped");
+                                }else if(initDialog.status.equals("accept")){
+                                    openDocument=document;
+                                    setStatusAndActivity(true);
+                                    jTB_arrow.setEnabled(true);
+                                    StatusDisplayer.getDefault().setStatusText("Code Coach will show you some tips ");
+                                    //mostrar mensajes de retroalimentacion
+                                }
+                            } else if(document != null && document==openDocument && buttonStatus){
+                                stopActDialog endDialog = new stopActDialog(frame, true);
+                                if (endDialog.status.equals("end")){
+                                    setStatusAndActivity(false);
+                                    jTB_arrow.setEnabled(false);
+                                    StatusDisplayer.getDefault().setStatusText("Code Coach has stopped");
+                                }else if(endDialog.status.equals("back")){
+                                    setStatusAndActivity(true);
+                                    jTB_arrow.setEnabled(true);
+                                    StatusDisplayer.getDefault().setStatusText("Welcome back!!");//sigue analizando el codigo del editor
+                                }
+                                
+                            }else{
+                                setStatusAndActivity(false);
+                                StatusDisplayer.getDefault().setStatusText("The source file is not open!");
+                            }
+                        }
                     }, true);
-                } catch (IOException ex) { 
-                    Exceptions.printStackTrace(ex); 
-                } 
+                } catch (IOException ex) {Exceptions.printStackTrace(ex);}
             }
-        }else{StatusDisplayer.getDefault().setStatusText("No file has been selected"); }
-    }//GEN-LAST:event_runButtonActionPerformed
-
+        }else{
+            setStatusAndActivity(false);
+            StatusDisplayer.getDefault().setStatusText("No file has been selected"); 
+            
+        }
+    }//GEN-LAST:event_jTB_activityActionPerformed
+    private void setStatusAndActivity(boolean status){
+        buttonStatus=status;
+        jTB_activity.setSelected(status);
+        jTB_activity.setVisible(true);
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JToggleButton arrow;
     private javax.swing.JFrame dataProcess;
     private javax.swing.JLabel jLabel1;
-    private java.awt.Button runButton;
+    private javax.swing.JToggleButton jTB_activity;
+    private javax.swing.JToggleButton jTB_arrow;
     // End of variables declaration//GEN-END:variables
 }
