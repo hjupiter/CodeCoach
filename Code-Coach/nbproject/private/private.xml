@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/e014hp/Documents/NetBeansProjects/Code-Coach/src/org/myorg/codeCoach/EndAnalysisFrame.java</file>
-            <file>file:/C:/Users/e014hp/Documents/NetBeansProjects/Code-Coach/src/org/myorg/codeCoach/DataProcessingFrame.java</file>
+            <file>file:/C:/Users/e014hp/Documents/NetBeansProjects/Code-Coach/src/org/myorg/codeCoach/CodeCoachAction.java</file>
+            <file>file:/C:/Users/e014hp/Documents/NetBeansProjects/Code-Coach/src/org/myorg/codeCoach/stopActDialog.java</file>
+            <file>file:/C:/Users/e014hp/Documents/NetBeansProjects/Code-Coach/src/org/myorg/codeCoach/activityDialog.java</file>
             <file>file:/C:/Users/e014hp/Documents/NetBeansProjects/Code-Coach/src/org/myorg/codeCoach/DownArrowPanel.java</file>
-            <file>file:/C:/Users/e014hp/Documents/NetBeansProjects/Code-Coach/src/org/myorg/codeCoach/ArrowMenuPanel.java</file>
         </group>
     </open-files>
 </project-private>
