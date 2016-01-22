@@ -27,7 +27,10 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.StringTokenizer;
+import java.util.regex.Pattern;
 import javax.lang.model.element.ElementKind;
 import javax.lang.model.element.TypeElement;
 import javax.swing.ImageIcon;
@@ -278,8 +281,10 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
         String s1;
         String s2;
         int numTokens = 0;
+        ArrayList<DataLine> listData = new ArrayList<DataLine>();
+        DataLine dataLine;
         String line[] = code.split("\n");
-        String valueIf[] = new String[]{"public","","}"};
+        String valueIf[] = new String[]{"public","{","}"};
         //StringTokenizer st = new StringTokenizer (code);
         int tokenFind = 0;
         /*
@@ -293,23 +298,63 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
                     
                 }
             }*/
+        String cadenaTempLine = "";
+        int contLineTemp = 0;
+        char cadenaTemp = ' ';
+        int cont = 0,contTemp = 0;
         String temp = "" ;
-        int numLineas = 0;
+        int numLineas = 0,tokenLine = 0,contStart = 0,contEnd = 0;
         for(int i = 0 ; i < line.length;i++){
-            numLineas++;
             String cadena = line[i];
-            //System.out.println("Linea: "+cadena);
+            for(int k = 0 ; k < cadena.length() ; k++){               
+                if(cadena.charAt(k) == '{'){
+                    cadenaTempLine = line[i];
+                    cadenaTemp = cadena.charAt(k);
+                    contStart = (i+1);
+                    //System.out.println("START LINE : "+(i+1)+" "+cadena.charAt(k));
+                    tokenLine = 1;
+                }
+                if(tokenLine == 1 && cadena.charAt(k) == '}' && cadenaTemp == '{'){
+                    //metodo dios
+                    //System.out.println("");
+                    contEnd = (i+1);
+                    dataLine = new DataLine(contStart, contEnd, cadenaTempLine);
+                    listData.add(dataLine);
+                    //System.out.println("START LINE : "+contStart+" "+cadenaTemp);
+                    //System.out.println("END LINE : "+(i+1)+" "+cadena.charAt(k));
+                    tokenLine = 0;
+                    contStart = 0;
+                    contEnd = 0;
+                    cadenaTemp = ' ';
+                    cadenaTempLine = " ";
+                }
+            }
+            
+            
+            
+            //System.out.println("XXXXXXXXXXXX--> "+cadena.charAt(cadena.length()-1));
+            
+            
             StringTokenizer st = new StringTokenizer (cadena);
             while (st.hasMoreTokens()){
                 s2 = st.nextToken();
                 numTokens++;
+                for(int p = 0 ;p<s2.length();p++){
+                    if(s2.charAt(p) == 'i'){
+                        if(s2.charAt(p+1) == 'f'){
+                            String word = ""+s2.charAt(p)+""+s2.charAt(p+1)+"";
+                            System.out.println(word);
+                            break;
+                        }
+                    }
+                }
                 //System.out.println ("    Palabra " + numTokens + " es: " + s2);
                 if(tokenFind == 1){
                     //System.out.println("YYYYYYYYYYYYYYY");
                     tokenFind = 0;
                     temp = "";
                     if(Pattern.matches("[a-zA-Z]+", s2) == true){
-                        System.out.println("Linea:"+numLineas+" Shouldn't put a single character variables a-z");
+                        System.out.println("Linea:"+(i+1)+" Shouldn't put a single character variables a-z");
                     } 
                 }
                 if(s2.equals("int") || s2.equals("char") || s2.equals("String")){
@@ -317,7 +362,20 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
                     tokenFind = 1;
                     temp = s2;
                 }
+//                if(s2.equals("public")){
+//                    String s3 = st.nextToken();
+//                    if(s3.equals("void") && s3 != null){
+//                        System.out.println(""+s2+" "+s3);
+//                    }
+//                    
+//                }
             }
+        }
+        
+        for(int k = 0 ; k < listData.size() ; k++){
+            //System.out.println(listData.get(k).toString());
+            listData.get(k).getNameLine();
+            listData.get(k).calculateStartEnd();
         }
         
         ArrayList<Object> array = new ArrayList<Object>();
@@ -355,6 +413,20 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
                 }
             }
         }
+        
+    }
+    
+  
+    
+    public String quitaEspacios(String texto) {
+        java.util.StringTokenizer tokens = new java.util.StringTokenizer(texto);
+        texto = "";
+        while(tokens.hasMoreTokens()){
+            texto += " "+tokens.nextToken();
+        }
+        texto = texto.toString();
+        texto = texto.trim();
+        return texto;
     }
     
     public void analize(String code){
