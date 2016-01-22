@@ -285,7 +285,6 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
         DataLine dataLine;
         String line[] = code.split("\n");
         String valueIf[] = new String[]{"public","{","}"};
-        //StringTokenizer st = new StringTokenizer (code);
         int tokenFind = 0;
         /*
         // bucle por todas las palabras
@@ -311,17 +310,12 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
                     cadenaTempLine = line[i];
                     cadenaTemp = cadena.charAt(k);
                     contStart = (i+1);
-                    //System.out.println("START LINE : "+(i+1)+" "+cadena.charAt(k));
                     tokenLine = 1;
                 }
                 if(tokenLine == 1 && cadena.charAt(k) == '}' && cadenaTemp == '{'){
-                    //metodo dios
-                    //System.out.println("");
                     contEnd = (i+1);
                     dataLine = new DataLine(contStart, contEnd, cadenaTempLine);
                     listData.add(dataLine);
-                    //System.out.println("START LINE : "+contStart+" "+cadenaTemp);
-                    //System.out.println("END LINE : "+(i+1)+" "+cadena.charAt(k));
                     tokenLine = 0;
                     contStart = 0;
                     contEnd = 0;
@@ -329,12 +323,7 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
                     cadenaTempLine = " ";
                 }
             }
-            
-            
-            
-            //System.out.println("XXXXXXXXXXXX--> "+cadena.charAt(cadena.length()-1));
-            
-            
+      
             StringTokenizer st = new StringTokenizer (cadena);
             while (st.hasMoreTokens()){
                 s2 = st.nextToken();
@@ -348,9 +337,7 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
                         }
                     }
                 }
-                //System.out.println ("    Palabra " + numTokens + " es: " + s2);
                 if(tokenFind == 1){
-                    //System.out.println("YYYYYYYYYYYYYYY");
                     tokenFind = 0;
                     temp = "";
                     if(Pattern.matches("[a-zA-Z]+", s2) == true){
@@ -358,7 +345,6 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
                     } 
                 }
                 if(s2.equals("int") || s2.equals("char") || s2.equals("String")){
-                    //System.out.println("XXXXXXXXXXXXXXXXXXxxx");
                     tokenFind = 1;
                     temp = s2;
                 }
@@ -378,41 +364,41 @@ public class DownArrowPanel extends javax.swing.JPanel implements LookupListener
             listData.get(k).calculateStartEnd();
         }
         
-        ArrayList<Object> array = new ArrayList<Object>();
-        for(int i = 0 ; i < line.length;i++){
-            String cadena = quitaEspacios(line[i]);
-            //System.out.println("LINEA : "+cadena);
-            //System.out.println(a);
-            for(int j = 0 ; j < cadena.length() ; j++){
-                //System.out.println(a.charAt(i));
-                array.add(cadena.charAt(j));
-                //System.out.println("caracter : "+cadena.charAt(j));
-            }
-        }
-        char caracter;
-        for(int i = 0 ; i < array.size();i++){
-            caracter = array.get(i).toString().charAt(0);
-            //System.out.println("CHAR--> "+array.get(i).toString().charAt(0));
-            if(array.get(i).toString().charAt(0) == 'i'){
-                //System.out.println("AAAA--> "+array.get(i));
-                if(array.get(i+1).toString().charAt(0) == 'f'){
-                    //System.out.println("BBBB--> "+array.get(i+1));
-                    for(int tempChar = i ; tempChar < array.size() ; tempChar++){
-                        //System.out.println("TEMP-CHAR "+array.get(tempChar));
-                        if(array.get(tempChar).toString().charAt(0) == '{'){
-                            //System.out.pri`ntln("TEMP-CHAR"+array.get(tempChar));
-                            if(array.get(tempChar+1).toString().charAt(0) == '}'){
-                                //System.out.println("TEMP-CHAR"+array.get(tempChar+1));
-                                System.out.println("YOU HAVE A EMPTY IF");
-                                break;
-                            }
-                        }
-                    }
-                    //System.out.println("BBBB"+array.get(i+1));
-                    //System.out.println("YOU HAVE A EMPTY IF");
-                }
-            }
-        }
+//        ArrayList<Object> array = new ArrayList<Object>();
+//        for(int i = 0 ; i < line.length;i++){
+//            String cadena = quitaEspacios(line[i]);
+//            //System.out.println("LINEA : "+cadena);
+//            //System.out.println(a);
+//            for(int j = 0 ; j < cadena.length() ; j++){
+//                //System.out.println(a.charAt(i));
+//                array.add(cadena.charAt(j));
+//                //System.out.println("caracter : "+cadena.charAt(j));
+//            }
+//        }
+//        char caracter;
+//        for(int i = 0 ; i < array.size();i++){
+//            caracter = array.get(i).toString().charAt(0);
+//            //System.out.println("CHAR--> "+array.get(i).toString().charAt(0));
+//            if(array.get(i).toString().charAt(0) == 'i'){
+//                //System.out.println("AAAA--> "+array.get(i));
+//                if(array.get(i+1).toString().charAt(0) == 'f'){
+//                    //System.out.println("BBBB--> "+array.get(i+1));
+//                    for(int tempChar = i ; tempChar < array.size() ; tempChar++){
+//                        //System.out.println("TEMP-CHAR "+array.get(tempChar));
+//                        if(array.get(tempChar).toString().charAt(0) == '{'){
+//                            //System.out.pri`ntln("TEMP-CHAR"+array.get(tempChar));
+//                            if(array.get(tempChar+1).toString().charAt(0) == '}'){
+//                                //System.out.println("TEMP-CHAR"+array.get(tempChar+1));
+//                                System.out.println("YOU HAVE A EMPTY IF");
+//                                break;
+//                            }
+//                        }
+//                    }
+//                    //System.out.println("BBBB"+array.get(i+1));
+//                    //System.out.println("YOU HAVE A EMPTY IF");
+//                }
+//            }
+//        }
         
     }
     
